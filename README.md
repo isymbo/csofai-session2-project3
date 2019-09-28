@@ -45,7 +45,9 @@ if cv2.waitKey(1) & 0xFF == ord('q'):
  ## Credit
  Learn More about Streaming with flask
  - https://blog.miguelgrinberg.com/post/video-streaming-with-flask
+ 
  Live streaming with face detection
  - https://github.com/mrxmamun/live-stream-face-detection
+ 
  Tensorflow face detector
  - https://github.com/yeephycho/tensorflow-face-detection
