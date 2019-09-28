@@ -8,6 +8,12 @@ pip install requirements.txt
 python app.py
 
 ```
+
+
+### Bring your own models built with Tensorflow
+
+Just put your model under [model](./model) and [protos](./protos) directory
+
 #### Use Built-in Webcam of Laptop
 ##### Put Zero (O) in cv2.VideoCapture(0)
 ```python
@@ -51,3 +57,6 @@ if cv2.waitKey(1) & 0xFF == ord('q'):
  
  Tensorflow face detector
  - https://github.com/yeephycho/tensorflow-face-detection
+ 
+ Models and examples built with TensorFlow
+ - https://github.com/tensorflow/models
